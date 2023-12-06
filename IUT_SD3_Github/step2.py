@@ -54,5 +54,6 @@ df.var()
 
 df = df.drop(columns = nans)
 df = df.dropna()
+df = df.drop(columns=['an'])
 
 df.to_csv("step2/missing_values_deleted.csv")
